@@ -1,0 +1,37 @@
+{
+	"name": "htmlskeleton",
+	"displayName": "HTML Boilerplate Skeleton",
+	"description": "A comprehensive HTML5 boilerplate/skeleton code snippet",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.52.0"
+	},
+	"homepage": "https://github.com/XCMer/vsc_htmlskeleton",
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./src/snippets/skeleton.json"
+			},
+			{
+				"language": "php",
+				"path": "./src/snippets/skeleton.json"
+			},
+			{
+				"language": "ruby",
+				"path": "./src/snippets/skeleton.json"
+			},
+			{
+				"language": "njk",
+				"path": "./src/snippets/skeleton.json"
+			},
+			{
+				"language": "django-html",
+				"path": "./src/snippets/skeleton.json"
+			}
+		]
+	}
+}
